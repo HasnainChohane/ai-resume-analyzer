@@ -31,7 +31,7 @@ st.set_page_config(
     initial_sidebar_state="collapsed"
 )
 
-API_KEY ="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"
+API_KEY ="past yours api"
 MODEL = "openai/gpt-oss-20b"
 
 client = Groq(api_key=API_KEY) if API_KEY else None
